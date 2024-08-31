@@ -66,7 +66,7 @@ function App() {
               className="keyboard__buttons"
               onClick={() => {
                 setResult(eval(counts));
-                setCounts('0');
+                setCounts("0");
               }}
             >
               =

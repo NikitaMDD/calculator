@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 @layer components {
-    body {
-      @apply dark:text-white dark:bg-zinc-800 duration-500;
-    }
-    .content{
-      @apply h-screen flex flex-col justify-center items-center;
-    }
+  body {
+    @apply dark:text-white dark:bg-zinc-800 duration-500;
   }
+  .content {
+    @apply h-screen flex flex-col justify-center items-center;
+  }
+}

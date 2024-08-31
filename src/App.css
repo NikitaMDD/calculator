@@ -11,7 +11,7 @@
     @apply justify-between;
   }
   .display__item_color {
-    @apply  font-bold dark:text-lime-400 text-lime-500 duration-500;
+    @apply font-bold dark:text-lime-400 text-lime-500 duration-500;
   }
   .keyboard {
     @apply flex justify-center items-center max-w-64 mt-1;
