@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .display {
+    @apply dark:bg-indigo-500 bg-slate-200 min-w-60 rounded-md h-14 mt-5 px-5 py-2
+    flex items-center duration-500;
+  }
+  .display {
+    @apply justify-between;
+  }
+  .display__item_color {
+    @apply  font-bold dark:text-lime-400 text-lime-500 duration-500;
+  }
+  .keyboard {
+    @apply flex justify-center items-center max-w-64 mt-1;
+  }
+  .keyboard__items {
+    @apply flex justify-start items-center flex-wrap max-w-[11.5rem] w-[11.5rem];
+  }
+  .items-right-column {
+    @apply flex flex-col justify-center items-center max-w-none;
+  }
+}

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .keyboard__buttons {
+    @apply dark:bg-indigo-500 dark:hover:bg-indigo-600 hover:bg-slate-300 
+    bg-slate-200 px-5 py-2 rounded-md w-14 h-14 m-0.5 duration-500;
+  }
+}
